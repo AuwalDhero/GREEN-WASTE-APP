@@ -1,0 +1,101 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: lightgreen;
+  font-family: 'Arial', sans-serif;
+  text-align: center;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+header {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
+
+.horizontal-menu {
+  display: flex;
+  justify-content: center;
+}
+
+.horizontal-menu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.horizontal-menu li {
+  margin: 0 15px;
+}
+
+.horizontal-menu a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.horizontal-menu a:hover {
+  text-decoration: underline;
+}
+
+main {
+  flex: 1;
+  padding: 20px;
+}
+
+.user-section,
+.generate-token-section {
+  background-color: white;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.generate-token-section form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.generate-token-section label {
+  margin-bottom: 10px;
+}
+
+.generate-token-section input {
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.generate-token-section button {
+  padding: 10px;
+  background-color: #333;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.generate-token-section button:hover {
+  background-color: #555;
+}
+
+.error-message {
+  color: #ff0000;
+  margin-top: 10px;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
